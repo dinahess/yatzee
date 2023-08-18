@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Roll Dice</title>
+  </head>
+  <body>
+    <div class="left">
+      <div class="roll">
+        
+      </div>
+
+      <div class="btn-container">
+        <button class="btn">Roll Dice</button>
+        <button class="new" style="display:none;">Start New Game</button>
+      </div>
+          
+      <div class="keep" style="height:60px;">
+          <img id="die1" class="dice" style="" src="img/die1.png">
+          <img id="die2" class="dice" style="" src="img/die2.png"> 
+          <img id="die3" class="dice" style="" src="img/die3.png">
+          <img id="die4" class="dice" style="" src="img/die4.png">
+          <img id="die5" class="dice" style="" src="img/die5.png">
+      </div>
+
+      <div class="msg">Click the scoreboard where you want to write in your score</div>
+    </div>
+    <div class="spacer">&nbsp;</div>
+    <div class="right">
+      <table>
+        <tr>
+          <td style="width:150px;">&nbsp;</td>
+          <th style="width:75px;">You</th>
+          <th style="width:75px;">Opponent</th></tr>
+        <tr>
+          <td class="pad-left">Ones</td>
+          <td><input type="text" class="score" id="ones" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Twos</td>
+          <td><input type="text" class="score" id="twos" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Threes</td>
+          <td><input type="text" class="score" id="threes" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Fours</td>
+          <td><input type="text" class="score" id="fours" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Fives</td>
+          <td><input type="text" class="score" id="fives" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="bot pad-left">Sixes</td>
+          <td class="bot score"><input type="text" id="sixes" /></td>
+          <td class="bot"><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Upper Score</td>
+          <td><input type="text" class="score" id="upper" disabled /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="bot pad-left">Bonus</td>
+          <td class="bot score"><input type="text" class="score" id="bonus" disabled /></td>
+          <td class="bot"><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Three of a kind</td>
+          <td><input type="text" class="score" id="threeOfKind" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Four of a kind</td>
+          <td><input type="text" class="score" id="fourOfKind" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Full House</td>
+          <td><input type="text" class="score" id="fullHouse" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Small Straight</td>
+          <td><input type="text" class="score" id="smStraight" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Large Straight</td>
+          <td><input type="text" class="score" id="lrgStraight" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Chance</td>
+          <td><input type="text" class="score" id="chance" /></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="bot pad-left">YAHTZEE</td>
+          <td class="bot score"><input type="text"  id="yahtzee"/></td>
+          <td class="bot"><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">Lower Score</td>
+          <td><input type="text" class="score" id="lower" disabled/></td>
+          <td><input type="text" disabled /></td></tr>
+        <tr>
+          <td class="pad-left">TOTAL SCORE</td>
+          <td><input type="text" class="score" id="total" disabled/></td>
+          <td><input type="text" disabled /></td></tr>
+      </table>
+    </div>
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>

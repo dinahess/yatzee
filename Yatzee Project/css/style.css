@@ -1,0 +1,100 @@
+body {
+  background-color: slategrey;
+}
+
+table {
+  border: 3px solid black;
+  border-spacing: 0px;
+  font-family: sans-serif;
+  font-size: 14px;
+  background-color: white;
+  margin-top: 25px;
+}
+
+td,
+th {
+  border: 1px solid darkgray;
+  border-spacing: 0px;
+}
+
+.pad-left {
+  padding-left: 10px;
+}
+
+tr {
+  border: none;
+  height: 35px;
+}
+
+.bot {
+  border-bottom: 3px solid black;
+}
+
+input {
+  width: 75px;
+  height: 35px;
+  border: none;
+  text-align: center;
+}
+
+.dice {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.dice-abs {
+  position: absolute;
+}
+
+.left {
+  float: left;
+}
+
+.spacer {
+  float: left;
+  width: 100px;
+}
+
+.right {
+  float: left;
+}
+
+img {
+  margin: 5px;
+}
+
+.roll {
+  width: 750px;
+  height: 500px;
+  margin: 25px 10px 25px 10px;
+}
+
+.btn,
+.new {
+  width: 250px;
+  margin: 25px auto;
+  background-color: salmon;
+  font-weight: bold;
+  font-size: 22px;
+  height: 50px;
+}
+
+.btn-container,
+.keep {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 750px;
+  margin-left: 10px;
+}
+
+.msg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+  color: burlywood;
+  font-size: 18px;
+  font-family: sans-serif;
+}
